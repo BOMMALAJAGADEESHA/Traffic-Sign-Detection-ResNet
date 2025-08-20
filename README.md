@@ -60,7 +60,10 @@ An **interactive web GUI** is provided with **Gradio** for quick testing and vis
 ## 📈 Results
 - High performance across all 43 classes  
 - Minimal misclassification between visually similar signs  
-- Generated **confusion matrix** & **classification report** for analysis  
+- Generated **confusion matrix** & **classification report** for analysis
+
+  ![Accuracy Plot](results/accuracy.png)  
+  ![Gradio GUI Preview](results/gradio_gui_output.png)
 
 ---
 
