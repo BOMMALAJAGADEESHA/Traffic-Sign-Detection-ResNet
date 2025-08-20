@@ -84,19 +84,16 @@ Traffic-Sign-Detection-ResNet/
 
 ---
 
-## 🚀 Getting Started
+## **🚀 Getting Started**
 
-You have **two ways to run this project**:  
+Run the project on **Google Colab (Recommended)** — no installation required.
 
-### 🔹 Option 1: Run on Google Colab (Recommended)  
-No setup needed — just open and run the notebook:  
-👉 [Open in Colab](https://colab.research.google.com/drive/1G69WhFLuZ-C2pEEEF6oCMiVX8FLGfEr5?usp=sharing)  
+### **1️⃣ Open the Notebook**
+Use this link to access the Colab notebook:  
+👉 [Open in Colab](https://colab.research.google.com/drive/1G69WhFLuZ-C2pEEEF6oCMiVX8FLGfEr5?usp=sharing)
 
----
+### **2️⃣ Run the Code**
+Execute all cells in the notebook to run the **ResNet34 model** and launch the **Gradio GUI**.
 
-### 🔹 Option 2: Run Locally  
-
-#### 1) Clone the Repository  
-```bash
-git clone https://github.com/BOMMALAJAGADEESHA/Traffic-Sign-Detection-ResNet.git
-cd Traffic-Sign-Detection-ResNet
+### **3️⃣ Test the Model**
+Upload any traffic sign image in the GUI to get predictions along with **confidence scores**.
