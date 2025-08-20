@@ -80,8 +80,8 @@ Traffic-Sign-Detection-ResNet/
 │   └─ no_entry.jpg
 │
 ├─ results/                      # GUI output images and accuracy plots
-│   ├─ gradio_gui_output.png
-│   └─ accuracy.png
+│   ├─ gradio_gui_output.jpg
+│   └─ accuracy.jpg
 │
 ├─ traffic_sign_detection.ipynb  # Main Colab/Notebook (code + GUI)
 ├─ requirements.txt              # Project dependencies
