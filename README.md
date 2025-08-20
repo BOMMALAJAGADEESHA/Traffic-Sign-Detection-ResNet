@@ -91,16 +91,36 @@ Traffic-Sign-Detection-ResNet/
 
 ---
 
-## **🚀 Getting Started**
+## 🚀 Run the Project on Google Colab
 
-Run the project on **Google Colab (Recommended)** — no installation required.
+No installation required — everything runs directly in Colab.  
 
-### **1️⃣ Open the Notebook**
-Use this link to access the Colab notebook:  
-👉 [Open in Colab](https://colab.research.google.com/drive/1G69WhFLuZ-C2pEEEF6oCMiVX8FLGfEr5?usp=sharing)
+### 1️⃣ Open the Notebook
+[Open in Colab](https://colab.research.google.com/github/BOMMALAJAGADEESHA/Traffic-Sign-Detection-ResNet/blob/main/traffic_sign_detection.ipynb)
 
-### **2️⃣ Run the Code**
-Execute all cells in the notebook to run the **ResNet34 model** and launch the **Gradio GUI**.
+### 2️⃣ Run the Code
+- Execute all cells in the notebook.  
+- This will load/train the ResNet34 model and launch the **Gradio GUI**.
 
-### **3️⃣ Test the Model**
-Upload any traffic sign image in the GUI to get predictions along with **confidence scores**.
+### 3️⃣ Test the Model
+- Upload any traffic sign image in the GUI.  
+- Get predictions along with confidence scores.  
+
+### 4️⃣ View Sample Results
+- Example outputs are available in the `results/` folder:  
+  - GUI screenshot: `gradio_gui_output.png`  
+  - Accuracy plot: `accuracy.png`  
+
+> ✅ That’s it! Everything works directly in Colab — no cloning or local setup required.
+
+---
+
+## 🤝 Contributing
+
+Feel free to **open issues** or **submit pull requests** to improve the project.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
