@@ -1,13 +1,13 @@
 # 🚦 Traffic Sign Detection & Recognition using ResNet34
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
-![PyTorch](https://img.shields.io/badge/PyTorch-ResNet34-red?logo=pytorch)
-![Gradio](https://img.shields.io/badge/GUI-Gradio-orange?logo=gradio)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)  
+![PyTorch](https://img.shields.io/badge/PyTorch-ResNet34-red?logo=pytorch)  
+![Gradio](https://img.shields.io/badge/GUI-Gradio-orange?logo=gradio)  
+![License](https://img.shields.io/badge/License-MIT-green)  
 
 A deep learning project that **detects and recognizes traffic signs** from images using **ResNet34 (PyTorch)**.  
 The model is trained on the **German Traffic Sign Recognition Benchmark (GTSRB)** dataset and achieves **~98% test accuracy**.  
-An **interactive web GUI** is provided with **Gradio** for quick testing and visualization.
+An **interactive web GUI** is provided with **Gradio** for quick testing and visualization.  
 
 ---
 
@@ -65,3 +65,38 @@ An **interactive web GUI** is provided with **Gradio** for quick testing and vis
 ---
 
 ## 📂 Project Structure
+
+Traffic-Sign-Detection-ResNet/
+│
+├─ data/                         # Dataset folder (sample images or full dataset)
+│   ├─ stop_sign.jpg
+│   ├─ speed_limit_50.jpg
+│   ├─ yield_sign.jpg
+│   ├─ pedestrian_crossing.jpg
+│   └─ no_entry.jpg
+│
+├─ results/                      # Outputs: confusion matrices, logs (optional)
+│
+├─ traffic_sign_detection.ipynb  # Main Colab/Notebook (code + GUI)
+├─ requirements.txt              # Project dependencies
+├─ README.md                     # Project documentation
+└─ LICENSE                       # MIT License file
+
+---
+
+## 🚀 Getting Started
+
+You have **two ways to run this project**:  
+
+### 🔹 Option 1: Run on Google Colab (Recommended)  
+No setup needed — just open and run the notebook:  
+👉 [Open in Colab](https://colab.research.google.com/drive/1G69WhFLuZ-C2pEEEF6oCMiVX8FLGfEr5?usp=sharing)  
+
+---
+
+### 🔹 Option 2: Run Locally  
+
+#### 1) Clone the Repository  
+```bash
+git clone https://github.com/BOMMALAJAGADEESHA/Traffic-Sign-Detection-ResNet.git
+cd Traffic-Sign-Detection-ResNet
