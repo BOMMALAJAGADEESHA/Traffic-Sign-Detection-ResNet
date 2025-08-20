@@ -13,7 +13,7 @@ An **interactive web GUI** is provided with **Gradio** for quick testing and vis
 
 ## ✨ Features
 - **Deep Learning Model:** ResNet34 with transfer learning + fine-tuning  
-- **Dataset:** [GTSRB](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) (43 classes, 50,000+ images)  
+- **Dataset:** [GTSRB on Kaggle](https://www.kaggle.com/datasets/hariharans18itr033/gtsrb-dataset) (43 classes, 50,000+ images)  
 - **Data Processing:** preprocessing, normalization, and augmentation for robustness  
 - **Evaluation:** classification report + confusion matrix  
 - **Interactive Demo:** Gradio GUI for image upload & prediction  
@@ -41,7 +41,8 @@ An **interactive web GUI** is provided with **Gradio** for quick testing and vis
   - Augmentation: rotation, zoom, shift, flips  
   - Train/validation/test split  
 
-📌 Official link: [GTSRB Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)  
+📌 Official link: [GTSRB Dataset on Kaggle](https://www.kaggle.com/datasets/hariharans18itr033/gtsrb-dataset) 
+
 
 ---
 
@@ -62,8 +63,8 @@ An **interactive web GUI** is provided with **Gradio** for quick testing and vis
 - Minimal misclassification between visually similar signs  
 - Generated **confusion matrix** & **classification report** for analysis
 
-  ![Accuracy Plot](results/accuracy.png)  
-  ![Gradio GUI Preview](results/gradio_gui_output.png)
+  ![Accuracy Plot](results/accuracy.jpg)  
+  ![Gradio GUI Preview](results/gradio_gui_output.jpg)
 
 ---
 
