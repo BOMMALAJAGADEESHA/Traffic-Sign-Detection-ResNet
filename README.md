@@ -64,14 +64,12 @@ An **interactive web GUI** is provided with **Gradio** for quick testing and vis
 
 ---
 
-
-
-
 ## 📂 Project Structure
 
+```text
 Traffic-Sign-Detection-ResNet/
 │
-├─ sample_data/                         # Dataset folder (sample images or full dataset)
+├─ data/                         # Dataset folder (sample images or full dataset)
 │   ├─ stop_sign.jpg
 │   ├─ speed_limit_50.jpg
 │   ├─ yield_sign.jpg
@@ -79,31 +77,14 @@ Traffic-Sign-Detection-ResNet/
 │   └─ no_entry.jpg
 │
 ├─ results/                      # GUI output images and accuracy plots
-│   ├─ gui_sample1.png
-│   ├─ gui_sample2.png
-│   └─ accuracy_plot.png
+│   ├─ gradio_gui_output.png
+│   └─ accuracy.png
 │
 ├─ traffic_sign_detection.ipynb  # Main Colab/Notebook (code + GUI)
 ├─ requirements.txt              # Project dependencies
 ├─ README.md                     # Project documentation
 └─ LICENSE                       # MIT License file
-
-
-Traffic-Sign-Detection-ResNet/
-│
-├─ sample_data/ # Dataset folder (sample images or full dataset)
-│ ├─ stop_sign.jpg
-│ ├─ speed_limit_50.jpg
-│ ├─ yield_sign.jpg
-│ ├─ pedestrian_crossing.jpg
-│ └─ no_entry.jpg
-│
-├─ results/ # Outputs: GUI images and accuracy images
-│
-├─ traffic_sign_detection.ipynb # Main Colab/Notebook (code + GUI)
-├─ requirements.txt # Project dependencies
-├─ README.md # Project documentation
-└─ LICENSE # MIT License file
+```
 
 ---
 
