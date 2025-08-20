@@ -75,7 +75,7 @@ Traffic-Sign-Detection-ResNet/
 │   ├─ pedestrian_crossing.jpg
 │   └─ no_entry.jpg
 │
-├─ results/                      # Outputs: confusion matrices, logs (optional)
+├─ results/                      # Outputs: GUI images and accuracy images
 │
 ├─ traffic_sign_detection.ipynb  # Main Colab/Notebook (code + GUI)
 ├─ requirements.txt              # Project dependencies
