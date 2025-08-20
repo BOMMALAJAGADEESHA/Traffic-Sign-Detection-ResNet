@@ -68,19 +68,19 @@ An **interactive web GUI** is provided with **Gradio** for quick testing and vis
 
 Traffic-Sign-Detection-ResNet/
 │
-├─ data/                         # Dataset folder (sample images or full dataset)
-│   ├─ stop_sign.jpg
-│   ├─ speed_limit_50.jpg
-│   ├─ yield_sign.jpg
-│   ├─ pedestrian_crossing.jpg
-│   └─ no_entry.jpg
+├─ sample_data/ # Dataset folder (sample images or full dataset)
+│ ├─ stop_sign.jpg
+│ ├─ speed_limit_50.jpg
+│ ├─ yield_sign.jpg
+│ ├─ pedestrian_crossing.jpg
+│ └─ no_entry.jpg
 │
-├─ results/                      # Outputs: GUI images and accuracy images
+├─ results/ # Outputs: GUI images and accuracy images
 │
-├─ traffic_sign_detection.ipynb  # Main Colab/Notebook (code + GUI)
-├─ requirements.txt              # Project dependencies
-├─ README.md                     # Project documentation
-└─ LICENSE                       # MIT License file
+├─ traffic_sign_detection.ipynb # Main Colab/Notebook (code + GUI)
+├─ requirements.txt # Project dependencies
+├─ README.md # Project documentation
+└─ LICENSE # MIT License file
 
 ---
 
