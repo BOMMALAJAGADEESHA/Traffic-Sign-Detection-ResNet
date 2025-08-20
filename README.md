@@ -109,8 +109,8 @@ No installation required — everything runs directly in Colab.
 
 ### 4️⃣ View Sample Results
 - Example outputs are available in the `results/` folder:  
-  - GUI screenshot: `gradio_gui_output.png`  
-  - Accuracy plot: `accuracy.png`  
+  - GUI screenshot: `gradio_gui_output.jpg`  
+  - Accuracy plot: `accuracy.jpg`  
 
 > ✅ That’s it! Everything works directly in Colab — no cloning or local setup required.
 
